@@ -1,0 +1,20 @@
+##------------------------------------------------------------------------------
+## Python requirements
+##
+## Build the `requirements.txt` file using the command:
+## `pip-compile -qr requirements.in`
+## This command compiles the list of dependencies specified in `requirements.in`
+## into a `requirements.txt` file, ensuring that all packages and their versions
+## are locked for consistent installations.
+##
+## Install the packages listed in `requirements.txt` with the following command:
+## `pip install -U -r requirements.txt`
+## This command updates and installs the specified packages, ensuring that the
+## latest compatible versions are used.
+##
+## @author     Lars Thoms
+## @date       2025-01-08
+##------------------------------------------------------------------------------
+
+fastapi >= 0.115.6
+uvicorn >= 0.34.0
